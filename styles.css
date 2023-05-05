@@ -1,0 +1,8 @@
+.logo {
+  background-color: black;
+  opacity: 60%;
+}
+
+.logo-banner {
+  display: flex;
+}
