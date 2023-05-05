@@ -2,3 +2,36 @@
   padding: 0;
   margin: 0;
 }
+
+.container {
+  display: flex;
+}
+
+.image-section {
+  background-image: url(
+    images/pexels-karolina-grabowska-4041391\ \(1\).jpg
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 30vw;
+  min-height: 120vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background: rgb(217, 212, 212, 0.2);
+  margin-top: 120px;
+}
+
+.logo img {
+  height: 20vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f0906b;
+}
