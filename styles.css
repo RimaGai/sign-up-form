@@ -9,6 +9,10 @@ body {
   display: flex;
 }
 
+.main-content {
+  max-width: 650px;
+}
+
 .image-section {
   background-image: url(images/pexels-karolina-grabowska-4041391.jpg);
   background-repeat: no-repeat;
@@ -36,7 +40,6 @@ h1 {
 }
 
 .main-content {
-  max-width: 700px;
   text-align: left;
   margin-left: 40px;
 }
@@ -44,6 +47,7 @@ h1 {
 .sign-up-text {
   font-size: 22px;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 button {
@@ -70,6 +74,45 @@ span {
 .log-in {
   color: #f0906b;
   font-weight: bold;
+}
+
+.form {
+  background-color: rgb(245, 242, 242);
+  height: 300px;
+  margin-bottom: 40px;
+  width: 450px;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+h2 {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 6px;
+  border: #e5e7eb 2px solid;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  box-shadow: 3px 3px 12px grey;
+  outline: none;
+  border: blue 2px solid;
+}
+
+label {
+  padding: 5px;
 }
 
 @media screen and (max-width: 600px) {
