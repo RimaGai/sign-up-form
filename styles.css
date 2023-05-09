@@ -67,7 +67,6 @@ button {
 button:hover {
   background-color: white;
   color: #f0906b;
-  border: 2px solid #f0906b;
 }
 
 span {
